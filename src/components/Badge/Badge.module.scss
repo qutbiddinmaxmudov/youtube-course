@@ -14,7 +14,7 @@
   &__content {
     height: 100%;
     border: 2px transparent solid;
-    border-image: linear-gradient(to bottom, #8b8b8b, transparent, #8b8b8b);
+    border-image: linear-gradient(to bottom, #8b8b8b, transparent 40% 60%, #8b8b8b );
     border-image-slice: 1;
     display: flex;
     justify-content: center;

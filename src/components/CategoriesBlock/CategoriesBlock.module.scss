@@ -1,0 +1,40 @@
+@import "../../theme.scss";
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 75px;
+  margin-bottom: 75px;
+
+  &__item {
+    flex-basis: calc(25% - 15px);
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  &__image {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 62px;
+    background: rgba(85, 183, 76, 0.8);
+    border-radius: 13px 13px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+  }
+}

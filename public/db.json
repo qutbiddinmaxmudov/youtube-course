@@ -8,8 +8,8 @@
                 "https://toshkentgullari.uz/thumb/2/27vEFLnhhAasXn51U4ij7Q/400r400/d/img_0105.jpg",
                 "https://toshkentgullari.uz/d/img_0107_2.jpg"
             ],
-            "price": 1500000,
-            "discount": 1000000
+            "price": 50,
+            "discount": 100
         },
         {
             "id": 1,
@@ -18,8 +18,8 @@
             "images": [
                 "https://toshkentgullari.uz/thumb/2/v5yws9Qo8yUwrslJ8T1Rlw/400r400/d/img_0061_2.jpg"
             ],
-            "price": 150000,
-            "discount": 10100000
+            "price": 150,
+            "discount": 200
         },
         {
             "id": 2,
@@ -29,8 +29,8 @@
                 "https://toshkentgullari.uz/thumb/2/bcq_weLLp_Y7KRshIYShcw/400r400/d/img_8174.jpg",
                 "https://toshkentgullari.uz/thumb/2/F_bfRRbLjmWtyIEDV5McOA/400r400/d/img_8175.jpg"
             ],
-            "price": 150000,
-            "discount": 100000
+            "price": 120,
+            "discount": 150
         },
         {
             "id": 3,
@@ -40,8 +40,8 @@
                 "https://toshkentgullari.uz/thumb/2/jTsCcZtlM6PLQx-fqtiMbA/400r400/d/img_8933.jpg",
                 "https://toshkentgullari.uz/thumb/2/_JklaBmhVedLegUrFihykA/400r400/d/img_8934.jpg"
             ],
-            "price": 180000,
-            "discount": 150000
+            "price": 200,
+            "discount": 300
         },
         {
             "id": 4,
@@ -50,8 +50,8 @@
             "images": [
                 "https://static.toiimg.com/photo/87304656.cms"
             ],
-            "price": 80000,
-            "discount": 50000
+            "price": 400,
+            "discount": 500
         },
         {
             "id": 5,

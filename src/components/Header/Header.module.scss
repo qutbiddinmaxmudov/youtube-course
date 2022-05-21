@@ -9,9 +9,12 @@
   }
 
   &__logo {
-    width: 175px;
-    height: 51px;
     margin-right: auto;
+
+    & img {
+      width: 175px;
+      height: 51px;
+    }
   }
 
   &__heart,

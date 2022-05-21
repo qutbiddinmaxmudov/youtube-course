@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Container from '../../layout/Container'
 import categories from '../../routes/categories'
 import classes from './CategoriesBlock.module.scss'
@@ -13,9 +14,9 @@ const CategoriesBlock = () => {
             alt={category.text}
             className={classes['categories__image']}
           />
-          <a href={category.link} className={classes['categories__button']}>
+          <Link to={category.link} className={classes['categories__button']}>
             {category.text}
-          </a>
+          </Link>
         </div>
       ))}
     </Container>

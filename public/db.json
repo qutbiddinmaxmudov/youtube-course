@@ -1,0 +1,327 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "name": "Basket No 1",
+            "category": "flower",
+            "images": [
+                "https://toshkentgullari.uz/thumb/2/27vEFLnhhAasXn51U4ij7Q/400r400/d/img_0105.jpg",
+                "https://toshkentgullari.uz/d/img_0107_2.jpg"
+            ],
+            "price": 1500000,
+            "discount": 1000000
+        },
+        {
+            "id": 1,
+            "name": "Basket No 2",
+            "category": "flower",
+            "images": [
+                "https://toshkentgullari.uz/thumb/2/v5yws9Qo8yUwrslJ8T1Rlw/400r400/d/img_0061_2.jpg"
+            ],
+            "price": 150000,
+            "discount": 10100000
+        },
+        {
+            "id": 2,
+            "name": "Basket No 3",
+            "category": "flower",
+            "images": [
+                "https://toshkentgullari.uz/thumb/2/bcq_weLLp_Y7KRshIYShcw/400r400/d/img_8174.jpg",
+                "https://toshkentgullari.uz/thumb/2/F_bfRRbLjmWtyIEDV5McOA/400r400/d/img_8175.jpg"
+            ],
+            "price": 150000,
+            "discount": 100000
+        },
+        {
+            "id": 3,
+            "name": "Basket No 4",
+            "category": "flower",
+            "images": [
+                "https://toshkentgullari.uz/thumb/2/jTsCcZtlM6PLQx-fqtiMbA/400r400/d/img_8933.jpg",
+                "https://toshkentgullari.uz/thumb/2/_JklaBmhVedLegUrFihykA/400r400/d/img_8934.jpg"
+            ],
+            "price": 180000,
+            "discount": 150000
+        },
+        {
+            "id": 4,
+            "name": "Indian mithais",
+            "category": "sweet",
+            "images": [
+                "https://static.toiimg.com/photo/87304656.cms"
+            ],
+            "price": 80000,
+            "discount": 50000
+        },
+        {
+            "id": 5,
+            "name": "Suaad sweets",
+            "category": "sweet",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhvkfk6AoRbQfHu_2ihHsu2k3PRI77DbPHIipnGVOdU_NcJfNUTvUt7DYuWzJo-YuBE0c&usqp=CAU"
+            ],
+            "price": 90000,
+            "discount": 60000
+        },
+        {
+            "id": 6,
+            "name": "Mishti",
+            "category": "sweet",
+            "images": [
+                "https://www.tasteofhome.com/wp-content/uploads/2020/09/pakistani-mithai-506731275.jpg?fit=700,800"
+            ],
+            "price": 70000,
+            "discount": 40000
+        },
+        {
+            "id": 7,
+            "name": "Halva",
+            "category": "sweet",
+            "images": [
+                "https://www.oyorooms.com/blog/wp-content/uploads/2018/07/shutterstock_725231338.jpg"
+            ],
+            "price": 70000,
+            "discount": 40000
+        },
+        {
+            "id": 8,
+            "name": "Balloon No 1",
+            "category": "balloon",
+            "images": [
+                "https://partycity6.scene7.com/is/image/PartyCity/_pdp_sq_?$_500x500_$&$product=PartyCity/909620"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 9,
+            "name": "Balloon No 2",
+            "category": "balloon",
+            "images": [
+                "https://media.istockphoto.com/vectors/blue-balloon-on-white-background-vector-id897005126?k=20&m=897005126&s=170667a&w=0&h=gHVlulVn07oGLsqsqTAtz14IhKUf1xopuS4VdmKQ0Cs="
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 10,
+            "name": "Balloon No 3",
+            "category": "balloon",
+            "images": [
+                "https://media.istockphoto.com/photos/yellow-party-balloon-isolated-on-white-picture-id182732883?k=20&m=182732883&s=170667a&w=0&h=gXmqbPxxP1B7ZbtmacBOV73O4Oip1dROZirbA4cowEM="
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 11,
+            "name": "Balloon No 4",
+            "category": "balloon",
+            "images": [
+                "https://m.media-amazon.com/images/I/51QliHi9pqL._AC_SL1000_.jpg"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 12,
+            "name": "Fruit Cart No 1",
+            "category": "Fruit",
+            "images": [
+                "https://fyf.tac-cdn.net/images/products/large/FYF-870.jpg?auto=webp&quality=60&width=690"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 13,
+            "name": "Fruit Cart No 2",
+            "category": "Fruit",
+            "images": [
+                "https://www.ubuy.vn/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODFZWmU2eW1pMkwuX1NMMTUwMF8uanBn.jpg"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 14,
+            "name": "Fruit Cart No 3",
+            "category": "Fruit",
+            "images": [
+                "http://cdn.shopify.com/s/files/1/1507/9940/products/Deluxe-Fruit-Basket-10-Types-of-Fruits-Fruit-Basket_1200x1200.jpg?v=1634579686"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 15,
+            "name": "Fruit Cart No 4",
+            "category": "Fruit",
+            "images": [
+                "https://thumbs.dreamstime.com/z/fruit-basket-18329115.jpg"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 16,
+            "name": "Indoor Plant No 1",
+            "category": "Plant",
+            "images": [
+                "https://www.gardendesign.com/pictures/images/900x705Max/dream-team-s-portland-garden_6/chinese-evergreen-plant-aglaonema-shutterstock-com_15962.jpg"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 17,
+            "name": "Indoor Plant No 2",
+            "category": "Plant",
+            "images": [
+                "https://empire-s3-production.bobvila.com/slides/34358/vertical_slide_wide/snake-plant.jpg?1572459883"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 18,
+            "name": "Indoor Plant No 3",
+            "category": "Plant",
+            "images": [
+                "https://m.media-amazon.com/images/I/613Ym7NDU4L._SX466_.jpg"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 19,
+            "name": "Indoor Plant No 4",
+            "category": "Plant",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnKphQOC1_9t9GSq9fdIJTngSEI5VcAm-nyw&usqp=CAU"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 20,
+            "name": "Gift No 1",
+            "category": "Gift",
+            "images": [
+                "https://api.time.com/wp-content/uploads/2019/12/Teddy-Bear.jpg"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 21,
+            "name": "Gift No 2",
+            "category": "Gift",
+            "images": [
+                "https://i5.walmartimages.com/asr/14132443-17ab-49e1-98f7-16ad97706690_1.9417839dc6954ccf0ebd8ee60b72e79a.jpeg"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 22,
+            "name": "Gift No 3",
+            "category": "Gift",
+            "images": [
+                "https://www.buildabear.com/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dwdac83d3c/24663x.jpg?sw=600&sh=600&sm=fit&q=70"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 23,
+            "name": "Gift No 4",
+            "category": "Gift",
+            "images": [
+                "https://image.made-in-china.com/44f3j00pVATkuoqfJry/0cm-Super-Cute-Teddy-Bear-Plush-Toys-Doll-Lovely-Couple-Bear-Stuffed-Animal-Christmas-Birthday-Gifts-Toy.jpg"
+            ],
+            "price": 7000,
+            "discount": 4000
+        },
+        {
+            "id": 24,
+            "name": "Service No 1",
+            "category": "Service",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxPLBsW9p-5_SMwYqMkylnp1E6spNSN1mRUQ&usqp=CAU"
+            ],
+            "price": 74000,
+            "discount": 47000
+        },
+        {
+            "id": 25,
+            "name": "Service No 2",
+            "category": "Service",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_9mucRom4OtbFGM1OWilJraZaGjfX5ybK9A&usqp=CAU"
+            ],
+            "price": 74000,
+            "discount": 47000
+        },
+        {
+            "id": 26,
+            "name": "Service No 3",
+            "category": "Service",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScfomdwzqJh65RB7OP4cN96LWgpD4Ex8J0MA&usqp=CAU"
+            ],
+            "price": 74000,
+            "discount": 47000
+        },
+        {
+            "id": 27,
+            "name": "Service No 4",
+            "category": "Service",
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTv1FJ2nCHLw6SW3_xJuZvjUj7PdfM450gVw&usqp=CAU"
+            ],
+            "price": 74000,
+            "discount": 47000
+        },
+        {
+            "id": 28,
+            "name": "Accessories No 1",
+            "category": "Accessory",
+            "images": [
+                "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MHLM3?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1623348211000"
+            ],
+            "price": 30000,
+            "discount": 22000
+        },
+        {
+            "id": 29,
+            "name": "Accessories No 2",
+            "category": "Accessory",
+            "images": [
+                "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWVU2?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1590688532000"
+            ],
+            "price": 30000,
+            "discount": 22000
+        },
+        {
+            "id": 30,
+            "name": "Accessories No 3",
+            "category": "Accessory",
+            "images": [
+                "https://image.shopmoment.com/resizer?quality=75&width=600&image=https://image.shopmoment.com/general/iPh13_Moment_Black_1.jpg"
+            ],
+            "price": 30000,
+            "discount": 22000
+        },
+        {
+            "id": 31,
+            "name": "Accessories No 4",
+            "category": "Accessory",
+            "images": [
+                "https://bellroy-product-images.imgix.net/advertising_shopping_feed_image/USD/PCAD-RAG-122/0?w=500&h=500&fit=clamp&crop=entropy&auto=format"
+            ],
+            "price": 30000,
+            "discount": 22000
+        }
+    ]
+}

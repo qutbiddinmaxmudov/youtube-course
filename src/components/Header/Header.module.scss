@@ -47,10 +47,6 @@
     color: $white;
     display: inline-block;
 
-    &:hover::after {
-      transform: scaleX(1)
-    }
-
     &::after {
       content: "";
       height: 2px;
@@ -62,5 +58,11 @@
       transform-origin: left;
       margin-top: 5px;
     }
+
+    &:hover::after,
+    &_active::after {
+      transform: scaleX(1)
+    }
+
   }
 }

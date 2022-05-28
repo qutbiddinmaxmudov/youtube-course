@@ -1,0 +1,15 @@
+@import '../../theme.scss';
+
+.discounts {
+  margin-top: 75px;
+  margin-bottom: 75px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: $black;
+    margin-bottom: 30px;
+  }
+}

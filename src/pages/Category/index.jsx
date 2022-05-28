@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import DiscountsCarousel from '../../components/DiscountsCarousel'
 import Header from '../../components/Header'
 import ProductCard from '../../components/ProductCard'
 import Container from '../../layout/Container'
@@ -32,6 +33,7 @@ const Category = () => {
             />
           ))}
       </Container>
+      <DiscountsCarousel/>
     </>
   )
 }

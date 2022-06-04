@@ -19,7 +19,12 @@ const Header = () => {
         <Link to="/" className={classes['header__logo']}>
           <img src={logo} alt="Floristman" />
         </Link>
-        <FontAwesomeIcon icon={faHeart} className={classes['header__heart']} />
+        <Link to="/favorite">
+          <FontAwesomeIcon
+            icon={faHeart}
+            className={classes['header__heart']}
+          />
+        </Link>
         <FontAwesomeIcon
           icon={faBagShopping}
           className={classes['header__bag']}

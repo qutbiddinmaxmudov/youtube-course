@@ -3,12 +3,17 @@ import { faHeart as faHeartSolid } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import classNames from 'classnames'
 import React, { useState } from 'react'
+import { useDispatch } from 'react-redux'
+import { handleLike } from '../../redux/favoriteSlice'
 import classes from './ProductCard.module.scss'
 
-const ProductCard = ({ className, data }) => {
+const ProductCard = ({ className, data, liked }) => {
+  const dispatch = useDispatch()
   const [image] = data.images
   const [selected, setSelected] = useState(false)
   const selectItem = () => setSelected((prevState) => !prevState)
+
+  const handleLikeButtonClick = () => dispatch(handleLike(data))
 
   return (
     <div className={classNames(classes['card'], className)}>
@@ -31,8 +36,8 @@ const ProductCard = ({ className, data }) => {
       >
         {selected ? 'Added' : 'Add to cart'}
       </button>
-      <button className={classes['card__like']}>
-        <FontAwesomeIcon icon={selected ? faHeartSolid : faHeartRegular} />
+      <button className={classes['card__like']} onClick={handleLikeButtonClick}>
+        <FontAwesomeIcon icon={liked ? faHeartSolid : faHeartRegular} />
       </button>
     </div>
   )

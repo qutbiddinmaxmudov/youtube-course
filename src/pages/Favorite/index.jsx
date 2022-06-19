@@ -8,7 +8,7 @@ import Container from '../../layout/Container'
 import classes from './Favorite.module.scss'
 
 const Favorite = () => {
-  const { like } = useSelector((state) => state)
+  const { like, cart: cartItems } = useSelector((state) => state)
   const items = Object.values(like)
   return (
     <>
@@ -23,6 +23,7 @@ const Favorite = () => {
                 data={card}
                 className={classes['card-item']}
                 liked={card.id in like}
+                selected={card.id in cartItems}
               />
             ))}
           </Container>

@@ -1,0 +1,25 @@
+@import '../../theme.scss';
+
+.title{
+  text-align: left;
+  color: $green;
+}
+
+.total{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  
+  &__description{
+    font-size: 18px;
+    color: $text_disabled;
+    margin-bottom: 15px;
+  }
+  
+  &__amount{
+    font-size: 24px;
+    color: $black;
+    margin-bottom: 15px;
+  }
+}

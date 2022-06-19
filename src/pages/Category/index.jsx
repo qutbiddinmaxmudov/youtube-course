@@ -13,7 +13,8 @@ const Category = () => {
   const { type } = useParams()
   const { pathname } = useLocation()
   const [data, setData] = useState(null)
-  const { like } = useSelector((state) => state)
+  const { like, cart: cartItems } = useSelector((state) => state)
+
   const { text: title } = categories.find((item) => item.link === pathname)
 
   useEffect(() => {
@@ -38,6 +39,7 @@ const Category = () => {
               data={card}
               className={classes['card-item']}
               liked={card.id in like}
+              selected={card.id in cartItems}
             />
           ))}
       </Container>

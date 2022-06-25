@@ -19,7 +19,7 @@ const Category = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch(`http://localhost:4000/products?category=${type}`)
+      const res = await fetch(`${process.env.REACT_APP_API_URL}/floristman_items?category=${type}`)
       const cards = await res.json()
       setData(cards)
     }

@@ -1,25 +1,42 @@
 @import '../../theme.scss';
 
-.title{
+.title {
   text-align: left;
   color: $green;
 }
 
-.total{
+.total {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 15px;
-  
-  &__description{
+
+  &__description {
     font-size: 18px;
     color: $text_disabled;
     margin-bottom: 15px;
   }
-  
-  &__amount{
+
+  &__amount {
     font-size: 24px;
     color: $black;
     margin-bottom: 15px;
   }
+}
+
+.order-button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 50px;
+  color: $white;
+  width: max-content;
+  padding: 0 100px;
+  background: $green;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  display: block;
+  margin: auto;
+  margin-top: 35px;
+  cursor: pointer;
 }

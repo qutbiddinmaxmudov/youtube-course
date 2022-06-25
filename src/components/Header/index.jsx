@@ -15,7 +15,6 @@ import { getItemsCount } from '../../redux/cart'
 const Header = () => {
   const location = useLocation()
   const cartItemsCount = useSelector(getItemsCount)
-  console.log(cartItemsCount)
   return (
     <header className={classes['header']}>
       <Container className={classes['header__container']}>

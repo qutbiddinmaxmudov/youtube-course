@@ -1,7 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import classNames from 'classnames'
+
 import Container from '../../layout/Container'
 import image from '../../images/OrderFormImage.jpeg'
-
+import { validateName, validatePhoneContent, validatePhoneNumber, validateText } from './helper'
 import classes from './OrderForm.module.scss'
 
 const initialData = {
@@ -12,10 +14,20 @@ const initialData = {
 
 const OrderForm = () => {
   const [fields, setFields] = useState(initialData)
+  const [disabled, setDisabled] = useState(true)
 
-  const handleChange = (e) =>
+  useEffect(() => {
+    const isValid =
+      validateName(fields.name) &&
+      validatePhoneNumber(fields.tel) &&
+      validateText(fields.text)
+    setDisabled(!isValid)
+  }, [fields])
+
+  const handleChange = (e) => {
+    if (e.target.name === 'tel' && !validatePhoneContent(e.target.value)) return
     setFields((prev) => ({ ...prev, [e.target.name]: e.target.value }))
-
+  }
   const handleSubmit = (e) => {
     e.preventDefault()
     setFields(initialData)
@@ -51,7 +63,10 @@ const OrderForm = () => {
           />
           <button
             onClick={handleSubmit}
-            className={classes['order-form__button']}
+            className={classNames(classes['order-form__button'], {
+              [classes['order-form__button_disabled']]: disabled,
+            })}
+            disabled={disabled}
           >
             Send
           </button>

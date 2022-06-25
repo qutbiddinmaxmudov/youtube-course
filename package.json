@@ -25,8 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": "json-server --port 4000 --watch public/db.json"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -46,7 +45,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "json-server": "^0.17.0"
-  }
+  "devDependencies": {}
 }

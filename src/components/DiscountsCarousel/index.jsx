@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper'
+import { useSelector } from 'react-redux'
 
+import useGetData from '../../hooks/useGetData'
 import Container from '../../layout/Container'
 import ProductCard from '../ProductCard'
 
@@ -9,22 +11,11 @@ import classes from './DiscountsCarousel.module.scss'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import './DiscountsCarousel.styles.scss'
-import { useSelector } from 'react-redux'
+
 
 const DiscountsCarousel = () => {
-  const [data, setData] = useState(null)
   const { like, cart: cartItems } = useSelector((state) => state)
-  useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch(
-        `${process.env.REACT_APP_API_URL}/floristman_discounts`
-      )
-      const discounts = await res.json()
-      setData(discounts)
-    }
-
-    fetchData()
-  }, [])
+  const [data] = useGetData('floristman_discounts')
 
   return (
     <Container className={classes['discounts']}>

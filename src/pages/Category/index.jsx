@@ -5,6 +5,7 @@ import DiscountsCarousel from '../../components/DiscountsCarousel'
 import Header from '../../components/Header'
 import ProductCard from '../../components/ProductCard'
 import Title from '../../components/Title'
+import useGetData from '../../hooks/useGetData'
 import Container from '../../layout/Container'
 import categories from '../../routes/categories'
 import classes from './Category.module.scss'
@@ -12,20 +13,11 @@ import classes from './Category.module.scss'
 const Category = () => {
   const { type } = useParams()
   const { pathname } = useLocation()
-  const [data, setData] = useState(null)
+  const [data] = useGetData(`floristman_items?category=${type}`)
+
   const { like, cart: cartItems } = useSelector((state) => state)
 
   const { text: title } = categories.find((item) => item.link === pathname)
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch(`${process.env.REACT_APP_API_URL}/floristman_items?category=${type}`)
-      const cards = await res.json()
-      setData(cards)
-    }
-
-    fetchData()
-  }, [type])
 
   return (
     <>

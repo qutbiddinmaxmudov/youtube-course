@@ -14,6 +14,3 @@ root.render(
     </Provider>
   </React.StrictMode>
 );
-
-// TODO!: Rewrite selectors for favoriteSlice
-// TODO: Add axios to make requests to API
